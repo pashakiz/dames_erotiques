@@ -168,6 +168,9 @@ body {
 .content_bg a.smallink {
     color: #fff;
 }
+.content_bg a.smallink:hover {
+    color: #FE6874;
+}
 .content_bg .form-control {
     background-color: #fff;
 }
@@ -198,12 +201,15 @@ body {
     font-size: 25px;
 }
 .logo.logo_header .logo__img {
+    width: 25px;
+    height: 25px;
     float: left;
-    background-image: url('../img/icons/logo-header.svg');
+    background-image: url('../img/icons/logo-light.svg');
 }
 .logo.logo_header .logo__text {
-    color: #9864AA;
-    font-size: 20px;
+    color: #fff;
+    font-size: 17px;
+    line-height: 1.5;
 }
 .logo.logo_footer {
     /*display: inline-block;*/
@@ -228,15 +234,15 @@ body {
     margin: 16px 0 23px;
 }
 .header-wrap {
-    background-color: #B67FC8;
+    background-color: #FE6874;
 }
 .header {
-    background-color: #B67FC8;
+    background-color: #FE6874;
     padding-top: 17px;
     padding-bottom: 18px;
 }
 .header__btn {
-    color: #9864AA;
+    color: #fff;
     font-size: 20px;
     cursor: pointer;
 }
@@ -245,7 +251,7 @@ body {
 }
 .header-menu__item {
     display: block;
-    background-color: #B67FC8;
+    background-color: #FE6874;
     padding: 19px 30px 18px;
     color: #fff;
     font-family: "Gotham", sans-serif;
@@ -339,9 +345,9 @@ h1 {
     display: none;
 }
 h2 {
-    font-family: "Gotham", sans-serif;
+    font-family: "SofiaPro", sans-serif;
     font-weight: 800;
-    font-size: 12px;
+    font-size: 13px;
     color: #71757A;
     margin: 0 0 40px;
     text-transform: uppercase;
@@ -376,11 +382,11 @@ a {
     text-decoration: none;
 }
 a:hover {
-    color: #20A892;
+    color: #FE6874;
     text-decoration: none;
 }
 a.smallink {
-    font-size: 12px;
+    font-size: 13px;
 }
 .collage {
     margin-bottom: 115px;
@@ -613,7 +619,7 @@ a.smallink {
 .user-profile__chart-title span {
     display: block;
     font-weight: 700;
-    color: #B67FC8;
+    color: #FE6874;
 }
 .user-profile__text {
     margin-bottom: 44px;
@@ -696,9 +702,9 @@ a.smallink {
     border-radius: 29px;
     padding: 1.325rem 1.625rem;
     color: #7A7A7A;
-    font-family: "Gothamt", sans-serif;
-    font-weight: 400;
-    font-size: 13px;
+    font-family: "SofiaPro", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
 }
 .form-control:hover {
     background-color: #F2F2F2;
@@ -838,7 +844,7 @@ textarea.form-control {
     transition: transform .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-transform .15s ease-in-out;
 }
 .custom-switch .custom-control-input:checked~.custom-control-label::after {
-    background-color: #B67FC8;
+    background-color: #FE6874;
     -webkit-transform: translateX(1.375rem);
     transform: translateX(1.375rem);
 }

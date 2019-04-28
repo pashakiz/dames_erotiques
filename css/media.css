@@ -45,6 +45,7 @@
     }
     .btn-login {
         width: 100%;
+        font-size: 15px;
     }
     .btn-w100 {
         width: 100%;
@@ -73,8 +74,6 @@
     }
     .logo.logo_header .logo__img {
         float: left;
-        width: 27px;
-        height: 24px;
     }
     .slogan {
         font-size: 17px;
@@ -96,6 +95,9 @@
         margin-top: 20px;
         float: right;
         width: auto;
+    }
+    .form-control {
+        font-size: 15px;
     }
     .login-form .form-control {
         min-width: 370px;
@@ -227,7 +229,8 @@
         background-image: url('../img/icons/logo-light.svg');
     }
     .logo.logo_header .logo__text {
-        color: #FFF;
+        font-size: 22px;
+        line-height: 1.2;
     }
     .firstscreen.bg01 {
         background-image: url('../img/bg/main/01d.jpg');
@@ -364,11 +367,11 @@
         display: block;
         height: 2px;
         width: 72px;
-        background-color: #B67FC8;
+        background-color: #FE6874;
         margin: 0 auto 32px;
     }
     h2 {
-        font-size: 15px;
+        font-size: 16px;
         margin: 0 0 42px;
     }
     .h2-login {
@@ -416,7 +419,7 @@
         margin-bottom: 2.4375rem;
     }
     a.smallink {
-        font-size: 13px;
+        font-size: 14px;
     }
     .custom-checkbox .custom-control-label {
         font-size: 15px;
